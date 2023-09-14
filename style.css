@@ -392,4 +392,31 @@ body {
     position: fixed;
     bottom: 0;
   }
+
+  .navbar {
+    padding: 2px;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    background-color: rgb(1, 1, 1, 0.8);
+    width: 30rem;
+    height: 100vh;
+    top: 100%;
+    right: -100%;
+    transition: 0.3s;
+    float: left;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    color: #fff;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
 }
