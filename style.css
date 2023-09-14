@@ -191,6 +191,7 @@ body {
 .about .row .content {
   flex: 1 1 35rem;
   padding: 0 1rem;
+  margin-top: 80px;
 }
 
 .about .row .content h3 {
@@ -358,13 +359,14 @@ body {
   }
 
   .about .row .about-img img {
-    height: 16rem;
+    height: 19rem;
     object-fit: cover;
     object-position: center;
   }
 
   .about .row .content {
     padding: 0;
+    margin-top: 10px;
   }
 
   .about .row .content h3 {
@@ -443,13 +445,14 @@ body {
   }
 
   .about .row .about-img img {
-    height: 14rem;
+    height: 16rem;
     object-fit: cover;
     object-position: center;
   }
 
   .about .row .content {
     padding: 0;
+    margin-top: 10px;
   }
 
   .about .row .content h3 {
