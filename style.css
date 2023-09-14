@@ -315,6 +315,10 @@ body {
     margin: 15px;
   }
 
+  .navbar {
+    padding: 2px;
+  }
+
   .navbar-nav {
     position: absolute;
     background-color: rgb(1, 1, 1, 0.8);
