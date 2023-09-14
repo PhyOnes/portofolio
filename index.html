@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/api.png" type="image/x-icon" />
     <script src="https://unpkg.com/feather-icons"></script>
+    <script type="text/javascript" href="sekrip.js"></script>
   </head>
   <body>
     <div class="loader-wrapper">
@@ -69,7 +70,7 @@
   <br>
   <br>
   <div>
-    <section id="teams" class="menu1">
+    <section id="teams" class="team-gweh">
       <h2><span>Kelompok</span> kami</h2>
       <p>Kelompok dalam tugas membuat website</p>
 
@@ -110,39 +111,11 @@
   <br>
   <br>
   <div>
-    <footer class="footer-distributed">
+    <footer class="footer">
       <div class="footer-text">
         <h3 style="text-align: center;">Semua Tentang Dia</h3>
-        <a href="https://www.instagram.com/_xtjat2/" target="_blank" class="ig"><center>© X TJAT 2 2023</center></a>
+        <center>© X TJAT 2 2023</center>
     </footer>
   </div>
   </body>
 </html>
-
-<script>
-  feather.replace();
-</script>
-<script src="sekrip.js"></script>
-<script>
-
-  window.addEventListener('load', function () {
-      var loaderWrapper = document.querySelector('.loader-wrapper');
-      loaderWrapper.style.display = 'none';
-  });
-
-  const navbarNav = document.querySelector(".navbar-nav");
-
-document.querySelector("#menu").onclick = () => {
-  navbarNav.classList.toggle("active");
-};
-
-const menur = document.querySelector("#home");
-
-document.addEventListener("click", function (e) {
-  if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
-    navbarNav.classList.remove("active");
-  }
-});
-
-
-</script>
