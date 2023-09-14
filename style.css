@@ -428,6 +428,12 @@ body {
     float: left;
   }
 
+  .navbar .navbar-logo {
+    color: var(--white);
+    font-size: 20px;
+    padding-top: 1x;
+  }
+
   .navbar .navbar-nav.active {
     right: 0;
   }

@@ -51,5 +51,15 @@
     navbarNav.classList.toggle("active");
   };
 
+  const menur = document.querySelector("#home");
+
+  document.addEventListener("click", function (e) {
+    if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
+      navbarNav.classList.remove("active");
+    }
+  });
+
+  feather.replace();
+
   feather.replace();
 </script>
