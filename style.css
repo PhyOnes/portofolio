@@ -88,25 +88,7 @@ body {
   float: right;
 }
 
-.home-bar {
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid var(--primary);
-}
-
-.about-bar {
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid var(--primary);
-}
-
-.teams-bar {
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px solid var(--primary);
-}
-
-.other-bar {
+.homebar {
   padding: 5px;
   border-radius: 10px;
   border: 2px solid var(--primary);
